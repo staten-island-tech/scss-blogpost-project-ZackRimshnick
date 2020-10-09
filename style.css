@@ -1,0 +1,174 @@
+html {
+  font-family: "Titillium Web", sans-serif;
+}
+
+header1 {
+  background-image: url(/img/nycskyline4.png);
+  background-color: #2196f3;
+  background-size: contain;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0.3rem 0.3rem 0 black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 0.25rem solid #757575;
+}
+
+header2 {
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0.25rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box button {
+  color: white;
+  text-shadow: 0.075rem 0.075rem 0 black;
+  margin: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 33.33333%;
+      flex-basis: 33.33333%;
+  border: 0.125rem solid #757575;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.box1 button {
+  background-color: navy;
+}
+
+.box2 button {
+  background-color: green;
+}
+
+.box3 button {
+  background-color: orange;
+}
+
+.box1 p1 {
+  color: white;
+  text-shadow: 0.075rem 0.075rem 0 black;
+  margin: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 33.33333%;
+      flex-basis: 33.33333%;
+  border: 0.125rem solid #757575;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  font-style: italic;
+  background-color: navy;
+}
+
+.box2 p1 {
+  color: white;
+  text-shadow: 0.075rem 0.075rem 0 black;
+  margin: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 33.33333%;
+      flex-basis: 33.33333%;
+  border: 0.125rem solid #757575;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  font-style: italic;
+  background-color: green;
+}
+
+.box3 p1 {
+  color: white;
+  text-shadow: 0.075rem 0.075rem 0 black;
+  margin: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 33.33333%;
+      flex-basis: 33.33333%;
+  border: 0.125rem solid #757575;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  font-style: italic;
+  background-color: orange;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+  font-size: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.footer p1 {
+  padding-bottom: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.footer p2 {
+  padding-bottom: 1.25rem;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.footer p3 {
+  padding-bottom: 1.25rem;
+  padding-left: 1.25rem;
+}
+/*# sourceMappingURL=style.css.map */
