@@ -1,135 +1,153 @@
 html {
   font-family: "Titillium Web", sans-serif;
+  min-height: 100%;
+  background-image: url(img/subwaymap3.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
 }
+
 $font: "Titillium Web", sans-serif;
-$background-color: #2196f3;
+$background-color: rgba(33, 150, 243, 0.8);
 $border-color: #757575;
-$knicks-color: orange;
+$yankees-color: rgba(0, 0, 128, 0.9);
+$jets-color: rgba(3, 97, 3, 0.9);
+$knicks-color: rgba(214, 102, 11, 0.9);
 
 header1 {
-  background-image: url(/img/nycskyline4.png);
-  background-color: $background-color;
-  background-size: contain;
+  //background-color: $background-color;
   font-size: 2rem;
   color: white;
   text-shadow: 0.3rem 0.3rem 0 black;
   display: flex;
   justify-content: center;
-  border: 0.25rem solid $border-color;
+  //border: 0.25rem solid $border-color;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  //border-radius: 5px;
+  transition: all 0.2s ease-in-out;
 }
 
 header2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
   display: flex;
   justify-content: center;
+  margin-top: 0vh;
+  margin-bottom: 10vh;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 0.05rem 0.05rem black;
 }
 
 .Posts {
   display: flex;
-  flex: wrap;
-  flex-direction: row;
-  margin: 0.25rem;
-  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
 
-.box button {
-  color: white;
-  text-shadow: 0.075rem 0.075rem 0 black;
-  margin: 1.25rem;
+.box {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-basis: content;
-  border: 0.125rem solid $border-color;
-  font-size: 2.5rem;
-  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  margin-bottom: 5vh;
+  align-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  border: 0.25rem solid $border-color;
+}
+
+.box h {
+  font-size: 1.85rem;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  text-shadow: 0.1rem 0.1rem black;
+}
+
+.box1 {
+  background-color: $yankees-color;
+}
+
+.box1 img {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.box2 {
+  background-color: $jets-color;
+}
+
+.box2 img {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.box3 {
+  background-color: $knicks-color;
+}
+
+.box3 img {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32.5%;
+}
+
+.box p {
+  margin-left: 7.5vw;
+  margin-right: 7.5vw;
+  font-size: 1.2rem;
+  margin-bottom: 4vh;
+  text-shadow: 0.08rem 0.08rem black;
+}
+
+button {
+  font-size: 1.25rem;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  border: white;
+  margin-bottom: 2.5vh;
   font-family: $font;
+  font-weight: bold;
   transition: all 0.2s ease-in-out;
 }
 
-.box1 button {
-  background-color: navy;
-}
-
-.box2 button {
-  background-color: green;
-}
-
-.box3 button {
-  background-color: $knicks-color;
-}
-
 button:hover {
-  opacity: 0.7;
+  opacity: 0.85;
   transform: scale(1.1);
 }
 
-.box1 p1 {
-  color: white;
-  text-shadow: 0.075rem 0.075rem 0 black;
-  margin: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  border: 0.125rem solid $border-color;
-  font-size: 1rem;
-  text-align: center;
-  font-family: $font;
-  font-style: italic;
-  background-color: navy;
-}
-
-.box2 p1 {
-  color: white;
-  text-shadow: 0.075rem 0.075rem 0 black;
-  margin: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  border: 0.125rem solid $border-color;
-  font-size: 1rem;
-  text-align: center;
-  font-family: $font;
-  font-style: italic;
-  background-color: green;
-}
-
-.box3 p1 {
-  color: white;
-  text-shadow: 0.075rem 0.075rem 0 black;
-  margin: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  border: 0.125rem solid $border-color;
-  font-size: 1rem;
-  text-align: center;
-  font-family: $font;
-  font-style: italic;
-  background-color: $knicks-color;
-}
-
 .footer {
+  margin-bottom: 2vh;
   display: flex;
-  flex: wrap;
-  font-size: 1rem;
+  align-content: space-between;
   justify-content: center;
-  height: auto;
-  align-items: flex-end;
+  color: white;
+  font-weight: bold;
 }
 
-.footer p1 {
-  padding-bottom: 1.25rem;
-  padding-right: 1.25rem;
+.footer f1 {
+  margin-right: 10vw;
 }
 
-.footer p2 {
-  padding-bottom: 1.25rem;
-  padding-right: 1.25rem;
-  padding-left: 1.25rem;
+.footer f2 {
+  margin-right: 10vw;
+  margin-left: 10vw;
 }
 
-.footer p3 {
-  padding-bottom: 1.25rem;
-  padding-left: 1.25rem;
+.footer f3 {
+  margin-left: 10vw;
 }
