@@ -1,3 +1,5 @@
+@import "./variables";
+
 html {
   font-family: "Titillium Web", sans-serif;
   min-height: 100%;
@@ -6,12 +8,6 @@ html {
   background-repeat: repeat;
   background-position: center center;
 }
-
-$font: "Titillium Web", sans-serif;
-$border-color: #757575;
-$yankees-color: rgba(0, 0, 128, 0.9);
-$jets-color: rgba(3, 97, 3, 0.9);
-$knicks-color: rgba(214, 102, 11, 0.9);
 
 header1 {
   font-size: 4.5vh;
