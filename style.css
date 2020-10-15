@@ -8,7 +8,7 @@ html {
 }
 
 header1 {
-  font-size: 2rem;
+  font-size: 4.5vh;
   color: white;
   text-shadow: 0.3rem 0.3rem 0 black;
   display: -webkit-box;
@@ -24,7 +24,7 @@ header1 {
 }
 
 header2 {
-  font-size: 1.5rem;
+  font-size: 3.5vh;
   color: white;
   text-align: center;
   display: -webkit-box;
@@ -34,7 +34,7 @@ header2 {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 0vh;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
   font-style: italic;
   font-weight: bold;
   text-shadow: 0.05rem 0.05rem black;
@@ -71,14 +71,14 @@ header2 {
       align-content: space-between;
   margin-left: 20%;
   margin-right: 20%;
-  border-radius: 10px;
+  border-radius: 2vh;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   border: 0.25rem solid #757575;
 }
 
 .box h {
-  font-size: 1.85rem;
+  font-size: 3.5vh;
   margin-top: 2vh;
   margin-bottom: 2vh;
   text-shadow: 0.1rem 0.1rem black;
@@ -135,16 +135,16 @@ header2 {
 .box p {
   margin-left: 7.5vw;
   margin-right: 7.5vw;
-  font-size: 1.2rem;
+  font-size: 2.5vh;
   margin-bottom: 4vh;
   text-shadow: 0.08rem 0.08rem black;
 }
 
 button {
-  font-size: 1.25rem;
+  font-size: 2.75vh;
   margin: auto;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 1.5vh;
   border: white;
   margin-bottom: 2.5vh;
   font-family: "Titillium Web", sans-serif;
