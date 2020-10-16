@@ -1,24 +1,3 @@
-.box img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-}
-
-html {
-  font-family: "Titillium Web", sans-serif;
-  min-height: 100%;
-  background-image: url(img/subwaymap3.jpg);
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: center center;
-}
-
 header1 {
   font-size: 4.5vh;
   color: white;
@@ -50,20 +29,6 @@ header2 {
   font-style: italic;
   font-weight: bold;
   text-shadow: 0.05rem 0.05rem black;
-}
-
-.Posts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .box {
@@ -135,6 +100,18 @@ button:hover {
           transform: scale(1.1);
 }
 
+.box img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
 .footer {
   margin-bottom: 0.1vh;
   display: -webkit-box;
@@ -160,5 +137,28 @@ button:hover {
 
 .footer f3 {
   margin-left: 10vw;
+}
+
+html {
+  font-family: "Titillium Web", sans-serif;
+  min-height: 100%;
+  background-image: url(img/subwaymap3.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
+}
+
+.Posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
