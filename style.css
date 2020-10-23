@@ -31,7 +31,7 @@ header2 {
   text-shadow: 0.05rem 0.05rem black;
 }
 
-.box {
+.post {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,26 +54,26 @@ header2 {
   transition: all 0.5s ease-in-out;
 }
 
-.box h {
+.post h {
   font-size: 3.5vh;
   margin-top: 2vh;
   margin-bottom: 2vh;
   text-shadow: 0.1rem 0.1rem black;
 }
 
-.box1 {
+.post1 {
   border: 0.25rem solid rgba(0, 0, 128, 0.9);
 }
 
-.box2 {
+.post2 {
   border: 0.25rem solid rgba(3, 97, 3, 0.9);
 }
 
-.box3 {
+.post3 {
   border: 0.25rem solid rgba(214, 102, 11, 0.9);
 }
 
-.box p {
+.post p {
   margin-left: 7.5vw;
   margin-right: 7.5vw;
   font-size: 2.5vh;
@@ -100,7 +100,7 @@ button:hover {
           transform: scale(1.1);
 }
 
-.box img {
+.post img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,6 +124,7 @@ button:hover {
           justify-content: center;
   color: white;
   font-weight: bold;
+  font-size: 1.75rem;
 }
 
 .footer f1 {
@@ -146,6 +147,14 @@ html {
   background-size: cover;
   background-repeat: repeat;
   background-position: center center;
+}
+
+html, body {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .Posts {

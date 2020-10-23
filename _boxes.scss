@@ -1,4 +1,4 @@
-.box {
+.post {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,26 +12,26 @@
   transition: all 0.5s ease-in-out;
 }
 
-.box h {
+.post h {
   font-size: 3.5vh;
   margin-top: 2vh;
   margin-bottom: 2vh;
   text-shadow: 0.1rem 0.1rem black;
 }
 
-.box1 {
+.post1 {
   border: 0.25rem solid $yankees-color;
 }
 
-.box2 {
+.post2 {
   border: 0.25rem solid $jets-color;
 }
 
-.box3 {
+.post3 {
   border: 0.25rem solid $knicks-color;
 }
 
-.box p {
+.post p {
   margin-left: 7.5vw;
   margin-right: 7.5vw;
   font-size: 2.5vh;

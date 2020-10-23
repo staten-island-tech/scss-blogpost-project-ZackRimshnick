@@ -14,6 +14,13 @@ html {
   background-position: center center;
 }
 
+html, body{
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .Posts {
   display: flex;
   flex-direction: column;
